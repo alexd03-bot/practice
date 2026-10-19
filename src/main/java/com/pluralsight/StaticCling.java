@@ -3,6 +3,8 @@ package com.pluralsight;
 import java.util.*;
 
 public class StaticCling {
+
+
     /**
      * print max of two numbers
      * @param a
@@ -30,15 +32,14 @@ public class StaticCling {
             min = b;
         }
         return min;
-    }
-
-    // line break
+    }// line break
 
 
 
 
 
     public static void main(String[] args) {
+
         int num = printMin(6, 7);
         System.out.println(num);
 
@@ -46,7 +47,8 @@ public class StaticCling {
 
 
 
-    }
+
+    }// line break
 
 
 //class end
