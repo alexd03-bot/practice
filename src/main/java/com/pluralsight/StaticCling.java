@@ -4,7 +4,6 @@ import java.util.*;
 
 public class StaticCling {
 
-
     /**
      * print max of two numbers
      * @param a
@@ -22,7 +21,6 @@ public class StaticCling {
         return max;
     }
 
-
     static int printMin(int a, int b) {
         int min;
         if (a < b) {
@@ -33,9 +31,6 @@ public class StaticCling {
         }
         return min;
     }// line break
-
-
-
 
 
     public static void main(String[] args) {
