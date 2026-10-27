@@ -28,19 +28,33 @@ public class StringsAndArrays {
 
 
 
-        int i = 1;
-        int sum = 0;
+//        int i = 1;
+//        int sum = 0;
+//
+//        do {
+//            sum += 1;
+//            i ++;
+//        } while (i < 3);
+//        System.out.println("Sum = " + sum);
+//
+//
+//        for (int j = 0; j < 3; j++) {
+//            System.out.println(j);
+//        }
+//
 
-        do {
+//        String[] nameList = {"chad", "mike", "jared"};
+//        String[] anotherList = nameList;
+//
+//        Arrays.sort(nameList);
+//            for (String name : nameList) {
+//                System.out.println(name);
+//            }
 
-            sum +=1;
-            i ++;
-        } while (i <=3);
-        System.out.println("Sum = " + sum);
 
-        for (int j = 0; j <= 3; j++) {
-            System.out.println(j);
-        }
+
+
+
 
 
 
