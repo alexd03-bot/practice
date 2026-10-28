@@ -20,7 +20,7 @@ public class Error {
 
         String line = bufReader.readLine();
 
-        System.out.println(line);
+        System.out.println("'" + line + "', he said.");
     }
     catch(FileNotFoundException e) {
         System.out.println("Yea no");
