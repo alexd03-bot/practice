@@ -19,8 +19,12 @@ public class Error {
         BufferedReader bufReader = new BufferedReader(fileReader);
 
         String line = bufReader.readLine();
-
-        System.out.println("'" + line + "', he said.");
+        while (line != null) {
+            System.out.println(line);
+            line = bufReader.readLine();
+        }
+        bufReader.close();
+//        System.out.println("'" + line + "', he said.");
     }
     catch(FileNotFoundException e) {
         System.out.println("We ain't got that");
