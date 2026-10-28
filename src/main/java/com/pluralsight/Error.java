@@ -23,10 +23,10 @@ public class Error {
         System.out.println("'" + line + "', he said.");
     }
     catch(FileNotFoundException e) {
-        System.out.println("Yea no");
+        System.out.println("We ain't got that");
     }
     catch (IOException e) {
-        System.out.println("your mom");
+        System.out.println("ERROR");
     }
 
 
